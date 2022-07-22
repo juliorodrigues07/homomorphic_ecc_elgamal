@@ -2,7 +2,7 @@
 
 # El Gamal sobre criptografia baseada em Curvas Elípticas
 
- Implementação de métodos de encriptação e decriptação homomórfica utilizando a cifra El Gamal (exponencial) sobre a curva elíptica P-256.
+ Implementação de métodos de encriptação e decriptação homomórfica (homomorfismo aditivo) utilizando a cifra El Gamal (exponencial) sobre a curva elíptica P-256.
 
  # Requisitos
  
