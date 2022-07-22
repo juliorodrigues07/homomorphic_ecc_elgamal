@@ -11,11 +11,6 @@ e_curve = 'P-256'
 g_point = ECC.EccPoint(0x6b17d1f2e12c4247f8bce6e563a440f277037d812deb33a0f4a13945d898c296,
                        0x4fe342e2fe1a7f9b8ee7eb4a7c0f9e162bce33576b315ececbb6406837bf51f5)
 
-# Obtém todas as combinações de votos possíveis para um candidato
-total = list()
-for x in range(n + 1):
-    total.append(g_point * x)
-
 
 def keys_generator():
 
